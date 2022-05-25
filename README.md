@@ -11,3 +11,24 @@ renamed to MEGA65.ROM, is 128k in size
 
 If you do not have such a file, the MEGA65 contains the free and open-source
 OpenROM alternative.
+
+
+# Building:
+
+Easiest way to build the core is using Linux, e.g. Debian.
+
+You will need exomizer. Get it via:
+
+```git clone https://bitbucket.org/magli143/exomizer.git```
+
+Enter the source directory and compile
+
+```
+cd exomizer/src/
+make
+```
+
+After building, copy the executable to a suitable location e.g.
+
+```sudo cp exomizer /usr/local/bin/```
+
